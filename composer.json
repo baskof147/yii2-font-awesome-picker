@@ -1,0 +1,30 @@
+{
+    "name": "baskof147/yii2-font-awesome-picker",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Loginov",
+            "email": "ilyalogi2014@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "rmrevin/yii2-fontawesome": "2.10.*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "^2.0",
+        "codeception/codeception": "^2.3"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "baskof147\\bootstrap\\": "src"
+        }
+    }
+}
