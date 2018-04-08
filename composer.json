@@ -1,5 +1,7 @@
 {
     "name": "baskof147/yii2-font-awesome-picker",
+    "description": "Font aswesome icon-picker widget for Yii2",
+    "keywords": ["yii2", "icon", "font aswesome", "picker", "widget"],
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -24,7 +26,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "baskof147\\bootstrap\\": "src"
+            "baskof147\\fontawesomepicker\\": "src"
         }
     }
 }
